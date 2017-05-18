@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_single_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.singlescreen.singleScreen"
+    android:background="@drawable/printer"
+    android:textAlignment="center">
+
+
+    <TextView
+        android:id="@+id/print_text_view"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:text="Mandy Printing Services"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="500dp"
+        android:layout_height="150dp"
+        android:text="Location: 129 block SS,Soshanguve"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="120dp"
+        android:text="Contact Details: 079 789 2160 "
+        android:layout_alignParentBottom="true"
+        android:textSize="15sp"
+        android:textColor="@color/colorAccent"
+        android:layout_alignBottom="@id/location"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:id="@+id/contact_details"/>
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="90dp"
+        android:text="Email Adress: nareamanda@gmail.com"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="gravity"
+        android:textSize="15sp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="60dp"
+        android:text="Working hours: 09:00 - 16:30"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="gravity"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
